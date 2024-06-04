@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Начало общего стили */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+p + p {
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 165px;
+    height: 50px;
+
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    background-color: #F6762c;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Конец общего стили */
+
+
+/* Начало шапки*/
+.header {
+    position: relative;
+    padding: 25px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav a {
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.header__nav a.active {
+    opacity: 1;
+}
+
+.header__nav a:hover {
+    opacity: 0.9;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* конец шапки*/
+
+
+/* Начало прив. секция */
+
+.main {}
+
+.welcome {
+    min-height: 100vh;
+
+    margin: -118px 0 40px 0;
+    padding: 242px 0;
+
+    background: url('../images/welcome-bg.jpg') no-repeat right top/cover;
+}
+
+.welcome__text {
+    width: 550px;
+}
+
+.welcome__subtitle {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+}
+
+.welcome__title {
+    font-size: 58px;
+}
+
+.welcome__desc {
+    margin: 40px 0;
+
+}
+
+.welcome__desc-page {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* конец прив. секция */ 
+
+
+
+/* Список еды */
+
+.food-list {
+    padding: 100px 0;
+}
+
+.food-list .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+.food-list__card {
+    width: 260px;
+
+    border-radius: 10px;
+    background-color: #312F38;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.food-list__img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.food-list__title {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.foot-list__desc {
+
+}
+
+.food-list___text-wrapper {
+    padding: 30px 20px;
+}
+
+/* Конец список еды */
+
+
+/* Бургер меню */
+
+
+/* Конец Бургер меню */
+
+
+
+
