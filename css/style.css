@@ -21,7 +21,7 @@ p {
     margin: 0;
 }
 
-p + p {
+p+p {
     margin-top: 15px;
 }
 
@@ -137,7 +137,7 @@ h6 {
     line-height: 1.7;
 }
 
-/* конец прив. секция */ 
+/* конец прив. секция */
 
 
 
@@ -175,9 +175,7 @@ h6 {
     font-size: 20px;
 }
 
-.foot-list__desc {
-
-}
+.foot-list__desc {}
 
 .food-list___text-wrapper {
     padding: 30px 20px;
@@ -188,9 +186,59 @@ h6 {
 
 /* Бургер меню */
 
+.order {
+    background-color: #312F30;
+    padding: 60px 0;
+}
+
+.order .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__wrapper-img {
+    max-width: 370px;
+    max-height: 300px;
+}
+
+.order__wrapper-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.order__text {
+    max-width: 470px;
+}
+
+.order__title {
+    font-size: 44px;
+}
+
+.order__desc {
+    opacity: .7;
+}
+
+.order__price {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.order__price--old {
+    font-size: 16px;
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.order .btn {
+    margin-top: 9px;
+}
+
+.order__price + .order__price {
+    margin-left: 3px;
+}
 
 /* Конец Бургер меню */
-
-
-
-
