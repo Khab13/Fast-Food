@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /* Начало общего стили */
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -26,7 +24,8 @@ p+p {
 }
 
 .container {
-    max-width: 1140px;
+    box-sizing: border-box;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -195,28 +194,31 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 150px;
 }
 
 .order__wrapper-img {
-    max-width: 370px;
-    max-height: 300px;
+    width: 470px;
+    height: 300px;
 }
 
 .order__wrapper-img img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;   
+    object-fit: contain;
 }
 
 .order__text {
-    max-width: 470px;
+    max-width: 360px;
 }
 
 .order__title {
+    margin-bottom: 25px;
     font-size: 44px;
 }
 
 .order__desc {
+    margin-bottom: 15px;
     opacity: .7;
 }
 
