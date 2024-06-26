@@ -51,6 +51,13 @@ p+p {
     opacity: 0.8;
 }
 
+.btn--small {
+    width: 140px;
+    height: 40px;
+
+    font-size: 12px;
+}
+
 h1,
 h2,
 h3,
@@ -194,7 +201,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 150px;
+    padding-right: 90px;
 }
 
 .order__wrapper-img {
@@ -204,7 +211,7 @@ h6 {
 
 .order__wrapper-img img {
     width: 100%;
-    height: 100%;   
+    height: 100%;
     object-fit: contain;
 }
 
@@ -239,8 +246,88 @@ h6 {
     margin-top: 9px;
 }
 
-.order__price + .order__price {
+.order__price+.order__price {
     margin-left: 3px;
 }
 
 /* Конец Бургер меню */
+
+
+
+/* Продукции */
+
+.product {
+    padding: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.product__card {
+    box-sizing: border-box;
+
+    width: 555px;
+    min-height: 300px;
+
+    padding: 60px 30px 60px 290px;
+
+    background-color: #4b3a3a;
+}
+
+.product__card:nth-child(even) {
+    padding-left: 30px;
+    padding-right: 290px ;
+}
+
+.product__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.product__desc {
+    margin-bottom: 10px;
+    opacity: .7;
+}
+
+.product__price {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.product__price + .product__price {
+    margin-left: 5px;
+}
+
+.product__price--old {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.product .btn {
+    margin-top: 10px
+}
+
+.card-queen {
+    background: url(../images/product-1.jpg) center/cover no-repeat;
+}
+
+.card-hut {
+    background: url(../images/product-2.jpg) center/cover no-repeat;;
+}
+
+.card-king {
+    background: url(../images/product-3.jpg) center/cover no-repeat;;
+}
+
+.card-papa {
+    background: url(../images/product-4.jpg) center/cover no-repeat;;
+}
+
+
+/* Конец продукции */
