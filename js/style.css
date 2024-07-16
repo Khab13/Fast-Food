@@ -339,9 +339,7 @@ h6 {
 
 /* Feedback */
 
-.feedback {
-    padding: 50px 0 200px 0;
-}
+.feedback {}
 
 .container {}
 
@@ -391,29 +389,4 @@ h6 {
 
 /* Конец Feedback */
 
-
-
-
-/* Начало Скачать Меню */
-
-
-.download {
-    padding: 60px 0;
-    background-color: #312F30;
-}
-
-.download .container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.download__title {
-    font-weight: 500;
-    font-size: 40px;
-}
-
-.btn {
-}
-
-/* Конец Скачать Меню */
 
